@@ -156,7 +156,7 @@ namespace WEBEnvioDeMensagemTelegram
                                 table += "<td>" + b["number"].ToString() + "</td>";
                                 table += "<td>" + b["opened_at"].ToString() + "</td>";
                                 table += "<td>" + b["incident_state"].ToString().TrimEnd() + "</td>";
-                                table += "<td>" + b["priority"].ToString() + "</td>";
+                                table += "<td>" + b["priority"].ToString() + "</td>"; 
                                 table += "<td>" + b["u_subcategory"].ToString() + "</td>";
                                 table += "<td>" + b["assignment_group"].ToString() + "</td>";
                                 table += "</tr>";
